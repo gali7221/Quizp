@@ -1,0 +1,141 @@
+.bgimg {
+    background: url("../images/WalkingDead.jpg") no-repeat;
+    background-size: cover;
+    background-position: 47% 100%;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    min-height: 700px;
+}
+
+.container {
+    padding: 15px 18px 18px;
+    position: relative;
+    width: 600px;
+    height: 600px;
+    min-height: 100%;
+    background-color: rgba(225, 225, 225, 0.85);
+    top: 0px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+h1 {
+    padding-bottom: 24px;
+    font-size: 50px;
+    font-variant: small-caps;
+    font-weight: 600;
+    text-align: center;
+}
+
+h3{
+    font-size: 40px;
+    font-variant: small-caps;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.status {
+    padding: 10px 0 10px 0;
+    width: 100%;
+    font-size: 22px;
+    color: rgb(92, 97, 136);
+    text-align: center;
+}
+
+#score {
+    display: inline-block;
+    margin: 0 100px 0 150px;
+}
+
+#score p {
+    display: inline-block;
+}
+
+#question {
+    display: inline-block;
+    color: #444;
+}
+
+#question p {
+    display: inline-block;
+}
+
+.restart, .start {
+    margin: 40px auto;
+    width: 57px;
+    position: relative;
+    border-radius: 5px;
+    color: #444444;
+    background-color: rgba(225, 175, 175, 0.76);
+    padding: 0px 5px;
+    font-size: 16px;
+    line-height: 29px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.restart:hover, .start:hover {
+    color: red;
+}
+
+
+h4 {
+    padding: 20px 0 13px 0;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+ul {
+    padding: 10px 0 0 77px;
+}
+
+ul li {
+    padding: 2px 111px 10px 0px;
+    font-size: 22px;
+    font-weight: 400;
+    list-style: none;
+}
+
+.radio {
+    opacity: 0.7;
+}
+
+.outcome {
+    display: inline-block;
+    padding: 25px 0 10px 42px;
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+}
+
+#correct {
+    display: inline-block;
+    color: rgb(55, 100, 0)
+}
+
+#incorrect {
+    display: inline-block;
+    color: rgb(203, 70, 0);
+}
+
+#next {
+    display: inline-block;
+    color: rgb(203, 70, 0);
+    float: right;
+    cursor: pointer;
+    margin: 0 191px 0 0;
+}
+
+.correct-answer {
+    color: rgb(153, 153, 153);
+}
+
+.reset {
+    margin-right: 267px;
+}
+
+#progress {
+    bottom: 0;
+}
